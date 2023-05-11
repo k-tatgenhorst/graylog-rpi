@@ -1,5 +1,5 @@
 # layer for download and verifying
-FROM ubuntu:jammy as graylog-downloader
+FROM ktatgenhorst:bullseye as graylog-downloader
 
 ARG VCS_REF
 ARG GRAYLOG_VERSION
